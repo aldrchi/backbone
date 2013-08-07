@@ -12,8 +12,14 @@ var app = app || {};
 		// Default attributes for the todo
 		// and ensure that each todo created has `title` and `completed` keys.
 		defaults: {
-			title: '',
-			completed: false
+			title: '',//first line
+			completed: false,
+      isVisNewLabel: false,
+      str: '', //second line
+      isHide: false,
+      value: '',
+      hideStatus: false,
+      allHide: false
 		},
 
 		// Toggle the `completed` state of this todo item.

@@ -3,9 +3,20 @@ body {
 	margin: 0;
 	padding: 0;
 }
+#seth {
+  /*background: red;*/
+  font-size: 20px;
+  margin: 15px 0 0 45px;
+}
+
+#hideButCont #hideAll {
+  background: red;
+  font-size: 20px;
+  margin: 15px 0 0 45px;
+}
 
 button {
-	margin: 0;
+	margin: 0 0 50px 450px;
 	padding: 0;
 	border: 0;
 	background: none;
@@ -61,7 +72,7 @@ body {
 	font-style: italic;
 }
 
-#todoapp input::-moz-placeholder {
+#todoapp input:-moz-placeholder {
 	font-style: italic;
 	color: #a9a9a9;
 }
@@ -84,7 +95,7 @@ body {
 }
 
 #header {
-	padding-top: 15px;
+	padding-top: 0;
 	border-radius: inherit;
 }
 
@@ -150,6 +161,7 @@ body {
 }
 
 label[for='toggle-all'] {
+
 	display: none;
 }
 
@@ -250,11 +262,12 @@ label[for='toggle-all'] {
 	transition: color 0.4s;
 }
 
+
 #todo-list li.completed label {
 	color: #a9a9a9;
 	text-decoration: line-through;
 }
-
+inline-block
 #todo-list li .destroy {
 	display: none;
 	position: absolute;
@@ -552,4 +565,16 @@ hr {
 		width: 550px;
 		margin: 130px auto 40px auto;
 	}
+}
+.newbut {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: #a88a8a;
+  margin: 0 0 50px 500px;
+  background: none;
 }
