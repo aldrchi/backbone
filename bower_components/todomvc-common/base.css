@@ -3,18 +3,18 @@ body {
 	margin: 0;
 	padding: 0;
 }
-#seth {
-  /*background: red;*/
-  font-size: 20px;
-  margin: 15px 0 0 45px;
+.colr{
+  background: #DEDEDE;
 }
-
 #hideButCont #hideAll {
   background: red;
   font-size: 20px;
   margin: 15px 0 0 45px;
 }
+#sortByDate {
 
+  margin: 0 0 0 75px;
+}
 button {
 	margin: 0 0 50px 450px;
 	padding: 0;
@@ -578,3 +578,13 @@ hr {
   margin: 0 0 50px 500px;
   background: none;
 }
+/*.num {text-align: center;*/
+  /*width: 40px;*/
+  /* auto, since non-WebKit browsers doesn't support input styling */
+  /*height: auto;*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*bottom: 0;*/
+  /*margin: auto 0;*/
+  /*border: none; *//* Mobile Safari */
+/*}*/

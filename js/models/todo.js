@@ -19,7 +19,8 @@ var app = app || {};
       isHide: false,
       value: '',
       hideStatus: false,
-      allHide: false
+      allHide: false,
+      modelst: false,
 		},
 
 		// Toggle the `completed` state of this todo item.
@@ -29,4 +30,5 @@ var app = app || {};
 			});
 		}
 	});
+
 })();
